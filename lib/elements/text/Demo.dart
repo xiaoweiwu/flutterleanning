@@ -22,7 +22,7 @@ class DemoState extends State<Demo>{
     Paint p = Paint();
     p.color = Colors.red;
     return new Scaffold(
-        appBar: new AppBar(title: new Text("简单控件示例")),
+        appBar: new AppBar(title: new Text("简单控件示例Text")),
         body: Container(
             child: Column(children: [
               Text('我是一个 Text$_count',
